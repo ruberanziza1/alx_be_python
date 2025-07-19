@@ -34,7 +34,8 @@ else:
     reminder_message += ". (Time-bound status not clearly specified)."
 
 # Print the customized reminder
-print(f"\nReminder: {reminder_message}")
+# Removed the leading newline from the string to match the expected format
+print(f"Reminder: {reminder_message}")
 
 # Optional: Add a celebratory message and a tweet link as requested
 print("\nWell done on completing this project! Let the world hear about this milestone achieved.")
